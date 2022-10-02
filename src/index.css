@@ -1,0 +1,93 @@
+@import "https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css";
+
+@font-face {
+  font-family: KGoran;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../src/Components/assets/fonts/KGoran/KGoran.eot');
+  src: url('../src/Components/assets/fonts/KGoran/KGoran.eot') format('embedded-opentype'), /* IE6-8 */
+    url('../src/Components/assets/fonts/KGoran/KGoran.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../src/Components/assets/fonts/KGoran/KGoran.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NRT';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../src/Components/assets/fonts/NRT-Reg/NRT-Reg.eot');
+  src: url('../src/Components/assets/fonts/NRT-Reg/NRT-Reg.eot?#iefix') format('embedded-opentype'),
+       url('../src/Components/assets/fonts/NRT-Reg/NRT-Reg.woff') format('woff'),
+       url('../src/Components/assets/fonts/NRT-Reg/NRT-Reg.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'NRT';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../src/Components/assets/fonts/NRT-Bd/NRT-Bd.eot');
+  src: url('../src/Components/assets/fonts/NRT-Bd/NRT-Bd.eot?#iefix') format('embedded-opentype'),
+       url('../src/Components/assets/fonts/NRT-Bd/NRT-Bd.woff') format('woff'),
+       url('../src/Components/assets/fonts/NRT-Bd/NRT-Bd.ttf') format('truetype');
+}
+
+* {
+  font-family: 'Droid Arabic Naskh';
+}
+
+:root {
+  --white: #fff;
+  --color: #414141;
+  --text: #3f3f3f;
+  --shadow: rgba(150, 150, 150, 0.25);
+  --button-backgroundcolor: #ed1c24;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+h2 {
+  color: #111;
+  overflow-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+}
+
+section[id^='jump'] {
+  margin-bottom: -20px;
+  padding-top: 25px;
+}
+
+section[id^='list'] {
+  margin-bottom: -10px;
+  padding-top: 15px;
+}
+
+@media screen and (max-width:992px) {
+  .order1 {
+    order: 1;
+    -webkit-order: 1;
+  }
+
+  .order2 {
+    order: 2;
+    -webkit-order: 2;
+  }
+
+  .order3 {
+    order: 3;
+    -webkit-order: 3;
+  }
+}
