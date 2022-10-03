@@ -1,0 +1,73 @@
+.reklam-box {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px 16px 16px 16px;
+  margin: 30px 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.reklam-insta {
+  margin-top: 9px;
+}
+
+.list-index2 {
+  margin-left: 40px;
+}
+
+.list-icon-page2 {
+  margin-top: 3px;
+}
+
+.text-imp {
+  margin-right: 11px;
+  color: #2f3134;
+}
+
+.text-imp span{
+  font-size: 14px;
+}
+
+.img-advertise img {
+  width: 23px;
+}
+
+.btn-main-index2 {
+  margin-left: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-main-index2 button,
+.btn-right-index2 button {
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 3px;
+  padding: 6px;
+  margin-top: 6px;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-main-index2 button {
+  border: 1px solid var(--button-backgroundcolor);
+  color: var(--button-backgroundcolor);
+}
+
+.btn-main-index2 button:hover {
+  background-color: var(--button-backgroundcolor);
+  color: var(--white);
+}
+
+.btn-right-index2 button {
+  background-color: var(--button-backgroundcolor);
+  color: var(--white);
+  padding: 7px;
+}
+
+.btn-right-index2 button:hover {
+  background-color: var(--white);
+  color: var(--button-backgroundcolor);
+}

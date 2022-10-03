@@ -1,0 +1,31 @@
+.left-box {
+  margin-top: 66px;
+}
+
+.text-span-main span {
+  color: var(--text);
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: .7px;
+  word-spacing: -0.1px;
+}
+
+.btn-main-mid .nav-link {
+  margin: 20px 0;
+  display: inline !important;
+}
+
+@media screen and (max-width: 992px) {
+  .article-img {
+    margin-bottom: 20px;
+  }
+
+  .article-img img {
+    width: 100%;
+  }
+
+  .left-box {
+    margin-top: 30px;
+  }
+}
