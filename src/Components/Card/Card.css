@@ -1,0 +1,48 @@
+@media screen and (min-width: 1200px) {
+  .col-lg-2-5 {
+    flex: 0 0 auto !important;
+    width: 20% !important;
+  }
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.text-above-box {
+  margin: 64px 0 24px 0;
+}
+
+.text-above-box h3 {
+  font-family: 'NRT';
+  font-size: 24px;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.boxes-main {
+  border: 1px solid #cdcdcd;
+  padding: 20px 10px 40px 10px;
+  text-align: center;
+  height: 200px;
+  border-radius: 3px;
+  margin-bottom: 50px;
+  overflow: hidden;
+  transition: all .4s ease-in-out;
+}
+
+.boxes-main:hover {
+  box-shadow: 0 4px 1px 0 rgb(0 0 0 / 5%), 0 6px 20px 0 rgb(0 0 0 / 5%);
+  transform: scale(1.05);
+}
+
+.txt-box-main {
+  padding-top: 33px;
+  padding-bottom: 25px;
+}
+
+.txt-box-main h6 {
+  color: var(--color);
+  line-height: 16px;
+  font-size: 14px;
+}

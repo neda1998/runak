@@ -1,0 +1,29 @@
+.menu-header {
+  background-color: #fff;
+  padding-top: 18px;
+}
+
+@media screen and (max-width:992px) {
+  .navbar-toggler {
+    border:none!important;
+  }
+
+  .navbar-toggler:focus {
+    outline: none!important;
+    box-shadow: none!important;
+    text-decoration: none!important;
+  } 
+
+  .navbar-nav .nav-link, .dropdown-toggle  {
+    color: var(--button-backgroundcolor)!important;
+    cursor: pointer;
+  }
+
+  .navbar-collapse {
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 10%)!important;
+    z-index: 1;
+    transition:all .4s ease-in-out;
+}
+}
