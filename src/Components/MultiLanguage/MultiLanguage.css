@@ -1,0 +1,20 @@
+*:focus {
+  outline: none;
+}
+
+.language-select-root {
+  justify-content: flex-start;
+}
+
+body[dir$='ltr'] .language-select-root {
+  justify-content: flex-end;
+  float: left;
+}
+
+.dropdown-toggle {
+  color: rgba(0, 0, 0, 0.55) !important;
+}
+
+.dropdown-toggle::after {
+  margin-right: 6px;
+}

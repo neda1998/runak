@@ -1,0 +1,25 @@
+.icon-fixed {
+  position: fixed;
+  right: 15px;
+  bottom: 16px;
+  border: 0;
+  width: 30px;
+  height: 30px;
+  background-color: var(--button-backgroundcolor);
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  padding: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-fixed svg {
+  color: #fff;
+  font-size: 18px;
+  padding-bottom: 2px;
+}
+
+.icon-fixed:hover {
+  transform: scale(1.05);
+}
