@@ -1,6 +1,6 @@
+import React from "react";
 import img from "../assets/images/img.svg";
 import "./Article1.css";
-import React from "react";
 import { useTranslation } from "react-i18next";
 
 const Article1 = () => {
